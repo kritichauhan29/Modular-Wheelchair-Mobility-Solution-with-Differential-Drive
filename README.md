@@ -34,12 +34,11 @@ The open differential axle is designed to distribute torque from a single DC mot
 
 - Side Gears: Connected directly to the axle shafts of each rear wheel, delivering final output torque.
 
-              Figure: Original CAD Drawing of Modular Setup( Rear-Differential Axle)
+Figure: Original CAD Drawing of Modular Setup( Rear-Differential Axle)
 ![image1](https://github.com/user-attachments/assets/9a2e5ad7-b102-4bdd-b518-12069b9d7bdf)
 
 
-
-                                    Table: Teeth of respective Gears in Design
+Table: Teeth of respective Gears in Design
 
 
 | Gear Type | Quantity | No. of teeth |
@@ -64,16 +63,13 @@ The front-wheel steering is actuated via a rack-and-pinion system driven by a se
 
 This mechanism is compact, directly coupled to the motor shaft, and reduces torque demand via gear reduction. The rack-and-pinion assembly is fabricated from aluminium and mounted at the front frame of the wheelchair. A 25 cm chain with 26 total links connects the motor and pinion, ensuring reliable actuation.
 
-                    Figure: Original CAD Drawing of Modular Setup( Front-RAP)
+Figure: Original CAD Drawing of Modular Setup( Front-RAP)
 
 ![image2](https://github.com/user-attachments/assets/e34fb8ba-3f44-4d66-b4f5-6e5f4399859c)
 
 
 
-
-
-
-                                         Table: Parameters of Rack
+Table: Parameters of Rack
 
 
 | Parameters | Value |
@@ -150,19 +146,15 @@ The STM32F767ZI microcontroller on the receiver side interprets incoming gesture
 
 - Differential axle with 1:2 gear ratio distributes torque between the rear wheels, while the rack-and-pinion front setup handles steering.
 
-                                    Figure: Transmitter Block Diagram
+Figure: Transmitter Block Diagram
 ![image3](https://github.com/user-attachments/assets/16e6437d-6a47-4c92-9c56-0b3f67ffca9e)
 
 
-
-
-
-                                    Figure: Receiver Block Diagram
+Figure: Receiver Block Diagram
 
 ![image4](https://github.com/user-attachments/assets/4468352c-8d97-4f9a-9694-a6e816987ed5)
 
-
-                                  Table: BLE 2.0 module specifications
+Table: BLE 2.0 module specifications
 
 | Parameters | Value |
 | --- | --- |
@@ -177,12 +169,11 @@ The STM32F767ZI microcontroller on the receiver side interprets incoming gesture
 
 A modular dual-motor add-on system was successfully integrated onto a conventional manual wheelchair. The rear-mounted open differential axle enabled smooth linear motion, while the front rack-and-pinion steering mechanism provided precise directional control. Key structural components were fabricated using aluminium and stainless steel, ensuring lightweight durability and rugged operation. 
 
-
-                          Figure: Full Wheelchair Setup with user Glove
+Figure: Full Wheelchair Setup with user Glove
 
 ![image5](https://github.com/user-attachments/assets/86eb6eae-03d6-4bf2-b562-c1cc16777bb3)
 
-                    Figure: Wheelchair Front and Back (RAP and Differential Axle Setup)
+Figure: Wheelchair Front and Back (RAP and Differential Axle Setup)
 
 ![image6](https://github.com/user-attachments/assets/b28d9e81-31d0-473a-83c2-3b4274164bd1)
 
@@ -197,12 +188,12 @@ On the control side, IMU-based gesture input enabled wireless real-time control.
 
 This system validated modularity, seamless retrofitting, and user-friendly operation across mechanical and control domains.
 
-                    Figure: Final Wireless Control Setup on Hand (Transmitter)
+Figure: Final Wireless Control Setup on Hand (Transmitter)
 
   ![image8](https://github.com/user-attachments/assets/3cc6233a-8592-4f01-b2b3-c4111c07f2bd)
 
 
-                        Table: Total Weight Distribution of System
+Table: Total Weight Distribution of System
 
 | Components | Weight |
 | --- | --- |
@@ -215,20 +206,22 @@ This system validated modularity, seamless retrofitting, and user-friendly opera
 
 
 We performed current analysis under varying load conditions to observe energy consumption. Additionally, three different subjects participated in the study to evaluate the intuitiveness of the gesture control method from a user’s perspective.
-
-          Figure: Current vs. time graph for a user weighing 45 kg, who had been exposed to gesture-controlled operation for 20 minutes.
+Figure: Current vs. time graph for a user weighing 45 kg, who had been exposed to gesture-controlled operation for 20 minutes.
 ![image9](https://github.com/user-attachments/assets/69ec20a7-283c-4eff-a231-3923082548b3)
 
-          Figure: Current vs. time graph for a user weighing 75 kg with no prior experience in gesture-controlled operation
+Figure: Current vs. time graph for a user weighing 75 kg with no prior experience in gesture-controlled operation
 ![image10](https://github.com/user-attachments/assets/1b3d1a8c-6e06-4990-a8b3-a2227de1e920)
 
-        Figure: Current vs. time graph for a user weighing 65 kg with no prior experience in gesture-controlled operation.
+Figure: Current vs. time graph for a user weighing 65 kg with no prior experience in gesture-controlled operation.
 ![image11](https://github.com/user-attachments/assets/fbfab011-8345-4969-940d-efabf38f525a)
 
-              Figure: Current vs. time graph for the wheelchair ascending a 30-degree ramp.
+Figure: Current vs. time graph for the wheelchair ascending a 30-degree ramp.
 ![image12](https://github.com/user-attachments/assets/c09d57c8-d390-4ce7-8e80-7684bedf8a9a)
 
 The first graph illustrates a consistent reverse motion during the initial half, followed by a steady forward motion in the latter half. The second graph reveals initial difficulty in distinguishing between forward and reverse motion, but the user eventually establishes a stable forward motion, followed by a steady reverse movement. The third graph depicts a smooth forward motion succeeded by a jerky reverse movement, indicating challenges in maintaining the reverse gesture. In the fourth graph, the wheelchair briefly pauses midway while ascending a 30-degree ramp, holding its position before resuming movement and reaching the flat surface at the top.
 
-
+## Notes
+For Code or True Dimension CAD dimensions contact :
+anubhavtyagi02@gmail.com or 
+chauhankriti29@gmail.com
 
