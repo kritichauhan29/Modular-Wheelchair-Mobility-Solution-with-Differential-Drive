@@ -24,7 +24,7 @@ To demonstrate control flexibility, a glove with an IMU captures hand gestures i
 
 ### Open Differential Axle
 
-The open differential axle is designed to distribute torque from a single DC motor to both rear wheels, allowing them to rotate at different speeds—essential for smooth cornering. The gearbox is fabricated using stainless steel and iron components and houses four main gear elements:
+The open differential axle is designed to distribute torque from a single DC motor to both rear wheels, allowing them to rotate at different speeds essential for smooth cornering. The gearbox is fabricated using stainless steel and iron components and houses four main gear elements:
 
 - Pinion Gear: 14-tooth gear directly driven by the motor shaft, initiating motion transfer.
 
