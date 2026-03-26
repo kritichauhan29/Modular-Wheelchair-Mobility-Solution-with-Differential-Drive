@@ -88,7 +88,7 @@ The setup was integrated into the manual wheelchair by removing the original whe
 
 #### System Architecture Overview
 
-The control system of the smart wheelchair is built around a wearable glove-based transmitter and an on-board receiver embedded in the wheelchair. The glove utilizes multiple sensors—including an IMU (ICM20948), flex sensor, and touch sensor—to detect hand gestures in six degrees of freedom. These gestures are transmitted wirelessly via Bluetooth to the receiver unit, which controls motor actuation for motion.
+The control system of the smart wheelchair is built around a wearable glove-based transmitter and an on-board receiver embedded in the wheelchair. The glove utilizes multiple sensors including an IMU (ICM20948), flex sensor, and touch sensor to detect hand gestures in six degrees of freedom. These gestures are transmitted wirelessly via Bluetooth to the receiver unit, which controls motor actuation for motion.
 
 #### Transmitter Design: Gesture Acquisition
 
